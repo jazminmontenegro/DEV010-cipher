@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <div id="root">
+      <h1>CIFRADO CESAR</h1>
+      <form id="cifrado" autocomplete="off">
+        <label for="men_cifra"></label>
+        <textarea id="mensaje" class="input1" placeholder="CIFRAR TEXTO" rows="4" cols="50"></textarea>
+      </form>
+      <div><input id="bnt_captura" class="button" type="button" value="CIFRAR">
+        <input type="number" id="desplazamineto" placeholder="DESPLAZAMIENTO">
+        <button id="borrar">borrar</button>
+      </div>
+
+      <form id="desifrar" autocomplete="off">
+        <label for="men_desi"></label>
+        <textarea id="mensaje2" class="input1" placeholder="DESCIFRAR TEXTO" rows="4" cols="50"></textarea>
+      </form>
+      <div><input id="bnt_captura2" class="button" type="button" value="DESCIFRAR">
+      </div>
+    </div>
+  </main>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
